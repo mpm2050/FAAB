@@ -1,0 +1,99 @@
+<!--//# ****************************************************************************#
+//# Copyright notice: This license enables reusers to distribute, remix, adapt, #
+//# and build upon the material in any medium or format, so long as attribution is
+//# given to the creator. The license allows for commercial use. CC BY includes #
+//# the following elements:														#
+//# BY: credit must be given to the creator.									#
+//# ****************************************************************************#
+//# ****************************************************************************#
+//# MODIFICATION  CONTROL  LOG                                                  #
+//# --------------------------------------------------------------------------- #
+//# Mod  Date                 Programmer           Comment                      #
+//# --------------------------------------------------------------------------- #
+//# 001  21:00 16-05-2024    Pitchaimuthu M       Initial version               #
+//#                                                                             #
+//# ****************************************************************************#-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>FAAB · Flask + API + Appendgrid + Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../static/content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <link href="../static/scripts/jquery.appendGrid/jquery.appendGrid-1.7.1.min.css" rel="stylesheet" />
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="/static/content/starter-template.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FAAB {{ title }} · Flask + API + Appendgrid + Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('get_incomes') }}">API</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div role="main" class="container body-content">
+
+
+        {% block content %}{% endblock %}
+
+    </div>
+    <footer>
+        <p>&copy; {{ year }} - © Pitchaimuthu M 2019. This work is openly licensed via CC BY 4.0.</p>
+    </footer>
+
+    <script src="../static/scripts/jquery-3.4.1.js"></script>
+    <script src="../static/scripts/bootstrap.bundle.min.js"></script>
+    <script src="../static/scripts/jquery-ui-1.12.1.js"></script>
+    <script src="../static/scripts/jquery.appendGrid/jquery.appendGrid-1.7.1.js"></script>
+    <!--<script src="../static/scripts/global.js"></script>-->
+    {% block scripts %}{% endblock %}
+
+</body>
+</html>

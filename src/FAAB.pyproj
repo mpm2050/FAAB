@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e2944403-816b-4062-a914-ec9784a0233e</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>FAAB</Name>
+    <RootNamespace>DIHModel</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="FAABModel\__init__.py" />
+    <Compile Include="FAABModel\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FAABModel\" />
+    <Folder Include="FAABModel\static\" />
+    <Folder Include="FAABModel\static\content\" />
+    <Folder Include="FAABModel\static\content\themes\" />
+    <Folder Include="FAABModel\static\content\themes\base\" />
+    <Folder Include="FAABModel\static\content\themes\base\images\" />
+    <Folder Include="FAABModel\static\content\themes\OrigTheme\" />
+    <Folder Include="FAABModel\static\content\themes\OrigTheme\images\" />
+    <Folder Include="FAABModel\static\content\themes\OrigTheme\styles\" />
+    <Folder Include="FAABModel\static\content\themes\OrigTheme\themes\" />
+    <Folder Include="FAABModel\static\content\themes\OrigTheme\themes\images\" />
+    <Folder Include="FAABModel\static\fonts\" />
+    <Folder Include="FAABModel\static\scripts\" />
+    <Folder Include="FAABModel\static\scripts\appendGrid\" />
+    <Folder Include="FAABModel\static\scripts\DIH\" />
+    <Folder Include="FAABModel\static\scripts\jquery.appendGrid\" />
+    <Folder Include="FAABModel\static\scripts\jquery.appendGrid\test\" />
+    <Folder Include="FAABModel\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FAABModel\static\content\bootstrap-grid.css" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.rtl.css" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.rtl.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.rtl.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.css" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.rtl.css" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-toggle.css" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.css" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.rtl.css" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap.min.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap.rtl.css" />
+    <Content Include="FAABModel\static\content\bootstrap.rtl.css.map" />
+    <Content Include="FAABModel\static\content\bootstrap.rtl.min.css" />
+    <Content Include="FAABModel\static\content\bootstrap.rtl.min.css.map" />
+    <Content Include="FAABModel\static\content\starter-template.css" />
+    <Content Include="FAABModel\static\content\themes\base\accordion.css" />
+    <Content Include="FAABModel\static\content\themes\base\all.css" />
+    <Content Include="FAABModel\static\content\themes\base\autocomplete.css" />
+    <Content Include="FAABModel\static\content\themes\base\base.css" />
+    <Content Include="FAABModel\static\content\themes\base\button.css" />
+    <Content Include="FAABModel\static\content\themes\base\core.css" />
+    <Content Include="FAABModel\static\content\themes\base\datepicker.css" />
+    <Content Include="FAABModel\static\content\themes\base\dialog.css" />
+    <Content Include="FAABModel\static\content\themes\base\draggable.css" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\base\jquery-ui.css" />
+    <Content Include="FAABModel\static\content\themes\base\jquery-ui.min.css" />
+    <Content Include="FAABModel\static\content\themes\base\menu.css" />
+    <Content Include="FAABModel\static\content\themes\base\progressbar.css" />
+    <Content Include="FAABModel\static\content\themes\base\resizable.css" />
+    <Content Include="FAABModel\static\content\themes\base\selectable.css" />
+    <Content Include="FAABModel\static\content\themes\base\selectmenu.css" />
+    <Content Include="FAABModel\static\content\themes\base\slider.css" />
+    <Content Include="FAABModel\static\content\themes\base\sortable.css" />
+    <Content Include="FAABModel\static\content\themes\base\spinner.css" />
+    <Content Include="FAABModel\static\content\themes\base\tabs.css" />
+    <Content Include="FAABModel\static\content\themes\base\theme.css" />
+    <Content Include="FAABModel\static\content\themes\base\tooltip.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\2stocktransfer.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\2stocktransfer_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\add.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\add_new.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\ajax_next.gif" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\ajax_prev.gif" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\approve-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\arrow-bottom.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\arrow-top.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\background-bottom.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\background-top.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\boxy-ne.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\boxy-nw.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\boxy-se.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\boxy-sw.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\btitle-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\btn-bg.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\btn_hover_bg.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\btn_red - Copy.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\btn_red.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\calendar.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\cancel-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\cancel.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\cash.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\cash_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\center.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\collapse.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\copy.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\copy2.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\delete.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\email.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\emailtemplate.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\emailtemplate_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\excel.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\expand.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\exportlist_bg.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\fax.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\generate_grn.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\goodsreturn-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\goodsreturn-title-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\goodsreturn.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\goodsreturn_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\grn.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\grn_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\kofu-large-logo.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\kofu-logo.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\KOUFU_LOGO.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\left.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\login-bg.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\login-box-bg-bottom - Copy.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\login-box-bg-bottom.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\login-box-bg-top.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\login-box-bg.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\logo-bg-separator.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\newpo.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\newpotemplate.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\newpotemplate_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\newpo_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\pdf.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\pendingpo.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\pendingpo_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\planning.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\planning_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\poarchives.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\poarchives_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\portal.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\postatus.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\postatus_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\print.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\promotion-bullet.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\promotionplan.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\promotionplan_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\right.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\salesplanningredbtn.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\search-btn.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\signout-icon.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stocktransfer.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stocktransfer_excl.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stocktransfer_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stocktransfer_hover_excl.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock_archieve_btn_bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock_exchange.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock_exchange_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock_excl.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\stock_hover_excl.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\tab-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\template-bg.jpg" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\title_bg_center.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\title_bg_left.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\title_bg_right.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\user-icon.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\user.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\user_hover.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\vssver2.scc" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\white-arrow-bottom.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\images\white-arrow-top.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\OrigTheme.skin" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\styles\base.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\styles\boxy.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\styles\bpopup.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\styles\content.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\styles\master.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\styles\vssver2.scc" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\animated-overlay.gif" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_flat_100_2d4f73_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_flat_100_ccc_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_flat_75_dadada_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-icons_000000_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-icons_222222_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-icons_454545_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\themes\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="FAABModel\static\content\themes\OrigTheme\vssver2.scc" />
+    <Content Include="FAABModel\static\scripts\AppendGrid.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-core.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-base.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-bootstrapicons.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-default.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-fontawesome5.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-ionicons4.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-materialdesignicons3.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-openiconic.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-icon-typicons2.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-main.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-ui-base.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-ui-bootstrap4.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-ui-bulma.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-ui-default.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-ui-foundation6.js" />
+    <Content Include="FAABModel\static\scripts\appendGrid\ag-util.js" />
+    <Content Include="FAABModel\static\scripts\boostrap-toggle.js" />
+    <Content Include="FAABModel\static\scripts\bootstrap.bundle.js" />
+    <Content Include="FAABModel\static\scripts\bootstrap.bundle.js.map" />
+    <Content Include="FAABModel\static\scripts\bootstrap.bundle.min.js" />
+    <Content Include="FAABModel\static\scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="FAABModel\static\scripts\bootstrap.esm.js" />
+    <Content Include="FAABModel\static\scripts\bootstrap.esm.js.map" />
+    <Content Include="FAABModel\static\scripts\bootstrap.esm.min.js" />
+    <Content Include="FAABModel\static\scripts\bootstrap.esm.min.js.map" />
+    <Content Include="FAABModel\static\scripts\bootstrap.js.map" />
+    <Content Include="FAABModel\static\scripts\bootstrap.min.js.map" />
+    <Content Include="FAABModel\static\scripts\DIH\index.js" />
+    <None Include="FAABModel\static\scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="FAABModel\static\scripts\global.js" />
+    <Content Include="FAABModel\static\scripts\jquery-3.4.1.js" />
+    <Content Include="FAABModel\static\scripts\jquery-ui-1.12.1.js" />
+    <Content Include="FAABModel\static\scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\.gitattributes" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\.gitignore" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\CHANGELOG.md" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\gulpfile.js" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\jquery.appendGrid-1.7.1.css" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\jquery.appendGrid-1.7.1.js" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\jquery.appendGrid-1.7.1.min.css" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\jquery.appendGrid-1.7.1.min.js" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\jquery.appendGrid-development.css" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\jquery.appendGrid-development.js" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\LGPL-LICENSE.md" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\MIT-LICENSE.md" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\package.json" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\README.md" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\test\Basic01.html" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\test\Bootstrap.html" />
+    <Content Include="FAABModel\static\scripts\jquery.appendGrid\test\SubGrid01.html" />
+    <Content Include="FAABModel\templates\employee.html" />
+    <Content Include="FAABModel\templates\layout.html" />
+    <Content Include="libman.json" />
+    <Content Include="requirements.txt" />
+    <Content Include="FAABModel\static\content\bootstrap.css" />
+    <Content Include="FAABModel\static\content\bootstrap.min.css" />
+    <Content Include="FAABModel\static\content\site.css" />
+    <Content Include="FAABModel\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="FAABModel\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FAABModel\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="FAABModel\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="FAABModel\static\scripts\bootstrap.js" />
+    <Content Include="FAABModel\static\scripts\bootstrap.min.js" />
+    <Content Include="FAABModel\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="FAABModel\static\scripts\jquery-1.10.2.js" />
+    <Content Include="FAABModel\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="FAABModel\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="FAABModel\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="FAABModel\static\scripts\jquery.validate.js" />
+    <Content Include="FAABModel\static\scripts\jquery.validate.min.js" />
+    <Content Include="FAABModel\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="FAABModel\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="FAABModel\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="FAABModel\static\scripts\respond.js" />
+    <Content Include="FAABModel\static\scripts\respond.min.js" />
+    <Content Include="FAABModel\static\scripts\_references.js" />
+    <Content Include="FAABModel\templates\about.html" />
+    <Content Include="FAABModel\templates\contact.html" />
+    <Content Include="FAABModel\templates\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.9</Version>
+      <Description>env (Python 3.9)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DIHModel.DB\DIHModel.DB.csproj">
+      <Name>DIHModel.DB</Name>
+      <Project>{309e307c-242d-42d9-9e2f-a4367ba32434}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

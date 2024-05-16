@@ -1,0 +1,36 @@
+<!--//# ****************************************************************************#
+//# Copyright notice: This license enables reusers to distribute, remix, adapt, #
+//# and build upon the material in any medium or format, so long as attribution is
+//# given to the creator. The license allows for commercial use. CC BY includes #
+//# the following elements:														#
+//# BY: credit must be given to the creator.									#
+//# ****************************************************************************#
+//# ****************************************************************************#
+//# MODIFICATION  CONTROL  LOG                                                  #
+//# --------------------------------------------------------------------------- #
+//# Mod  Date                 Programmer           Comment                      #
+//# --------------------------------------------------------------------------- #
+//# 001  21:00 16-05-2024    Pitchaimuthu M       Initial version               #
+//#                                                                             #
+//# ****************************************************************************#-->
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+{% endblock %}

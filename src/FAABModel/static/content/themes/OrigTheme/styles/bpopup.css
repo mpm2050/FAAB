@@ -1,0 +1,70 @@
+﻿#popup2 iframe {
+	position:absolute;
+	left:0px;
+	/*overflow:hidden;*/
+	overflow-x:hidden;
+	border:0px solid #FF8899;
+	background:#FFFFFF;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+}
+#content {
+	margin:0 auto;
+	/*overflow:hidden;*/
+	position:relative;
+	width:915px;
+}
+#popup, #popup2, #popup3, #xlink, .bMultiple {
+	display:none;
+	width:915px;
+	border:0px solid #FF8899;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+}
+#popup2 .popup2Header {
+     width:900px;
+     height:39px;
+     background:url('../images/btitle-bg.jpg') left top repeat-x;
+}
+p > a, #downloadLink {
+	color:#000;
+	display:block;
+	margin:10px 0;
+	text-decoration:none;
+}
+#downloadLink {
+	font-size:200%;
+	text-align:center;
+}
+#popup p, #xlink p {
+	font-size:160%;
+	left:40px;
+	position:absolute;
+	text-align:center;
+	top:55px;
+	width:400px;
+}
+#xlink a {
+	color:#6666CC;
+	cursor:pointer;
+	font-weight:normal;
+	left:65px;
+	margin:0 0 0 15px;
+	position:relative;
+	text-decoration:none;
+	top:165px;
+}
+.reklame {
+	border:1px dashed #000;
+	margin:25px auto;
+	padding: 10px;
+	text-align: center;
+}
+.bMultiple p {
+	font-size:200%;
+	text-align:center;
+	padding:25px 0 0;
+	width:100%;
+}

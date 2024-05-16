@@ -1,0 +1,168 @@
+﻿body#bg {
+	background:#fff url(../images/background-bottom.jpg) bottom left repeat-x;
+	min-height:650px;
+}
+#bg-img {
+	background:url(../images/background-top.jpg) repeat-x;
+	min-height:370px;
+}
+#wrapper {
+	width:1150px;
+	margin:0 auto;
+	padding-bottom:80px;
+	position:relative;
+}
+.header-bar {
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	width:100%;
+}
+.header-bar .date-time {
+	text-align:left;
+	float:left;
+	width:50%;
+}
+.header-bar .user {
+	text-align:right;
+	width:50%;
+	float:right;
+}
+.header-bar a {
+	color:#fff;
+}
+.header-bar a:hover {
+	text-decoration:underline;
+}
+.header-bar .user-icon {
+	background:url(../images/user-icon.png) left top no-repeat;
+	padding:0 40px 0 20px;
+}
+.header-bar .singout-icon {
+	background:url(../images/signout-icon.png) left top no-repeat;
+	padding:0 20px;
+}
+.menu-bar {
+	/*padding:12px 38px;*/
+	padding:12px 5px;
+	margin:0 0px 10px 0;
+}
+#logo {
+	margin: 0 30px 0 0;
+	float:left;
+	width:65px;
+}
+#menu {
+	background:url(../images/logo-bg-separator.jpg) left 5px no-repeat;
+	float:left;
+	width:1025px;
+	padding:0 0 0 15px;
+}
+.hqtemplate #menu li {
+	width:93px !important;}
+#menu li {
+	float:left;
+	text-align:center;
+	/*width:92px;*/
+	width:83px;
+/*	margin:36px 20px 0 0;*/
+}
+#menu li a {
+	color:#7d7d7d;
+	letter-spacing:-0.001em;
+	display:block !important;
+	padding:36px 0 0 0;
+}
+#menu li a.po-status 
+{
+	background:url(../images/postatus.png) center top no-repeat;
+}
+#menu li a.new-po {
+	background:url(../images/newpo.png) center top no-repeat;
+}
+#menu li a.new-po-temp {
+	background:url(../images/newpotemplate.png) center top no-repeat;
+}
+#menu li a.cash {
+	background:url(../images/cash.png) center top no-repeat;
+}
+#menu li a.grn {
+	background:url(../images/grn.png) center top no-repeat;
+}
+#menu li a.goods-return {
+	background: url(../images/goodsreturn.png) center top no-repeat;
+}
+#menu li a.stocks {
+	background:url(../images/stock.png) center top no-repeat;
+}
+#menu li a.planning {
+	background:url(../images/planning.png) center top no-repeat;
+}
+#menu li a.emailtemplate{
+	background:url(../images/emailtemplate.png) center top no-repeat;
+}
+#menu li a.po-status:hover
+{
+	background:url(../images/postatus_hover.png) center top no-repeat;
+}
+#menu li a.new-po:hover {
+	background:url(../images/newpo_hover.png) center top no-repeat;
+}
+#menu li a.new-po-temp:hover {
+	background:url(../images/newpotemplate_hover.png) center top no-repeat;
+}
+#menu li a.cash:hover {
+	background:url(../images/cash_hover.png) center top no-repeat;
+}
+#menu li a.grn:hover {
+	background:url(../images/grn_hover.png) center top no-repeat;
+}
+#menu li a.goods-return:hover {
+	background: url(../images/goodsreturn_hover.png) center top no-repeat;
+}
+#menu li a.stocks:hover {
+	background:url(../images/stock_hover.png) center top no-repeat;
+}
+#menu li a.planning:hover {
+	background:url(../images/planning_hover.png) center top no-repeat;
+}
+#menu li a.emailtemplate:hover {
+	background:url(../images/emailtemplate_hover.png) center top no-repeat;
+}
+#menu li a.pending-po {
+	background:url(../images/pendingpo.png) center top no-repeat;
+}
+#menu li a.po-archives {
+	background:url(../images/poarchives.png) center top no-repeat;
+}
+#menu li a.promotion{
+	background:url(../images/promotionplan.png) center top no-repeat;
+}
+#menu li a.pending-po:hover {
+	background:url(../images/pendingpo_hover.png) center top no-repeat;
+}
+#menu li a.po-archives:hover {
+	background:url(../images/poarchives_hover.png) center top no-repeat;
+}
+#menu li a.promotion:hover {
+	background:url(../images/promotionplan_hover.png) center top no-repeat;
+}
+#menu li a.stockstransfer {
+	background:url(../images/stocktransfer.png) center top no-repeat;
+}
+#menu li a.stockstransfer:hover {
+	background:url(../images/stocktransfer_hover.png) center top no-repeat;
+}
+#menu li a.user {
+	background:url(../images/user.png) center top no-repeat;
+}
+#menu li a.user:hover {
+	background:url(../images/user_hover.png) center top no-repeat;
+}
+#menu li a.stocksexchange {
+	background:url(../images/stock_exchange.png) center top no-repeat;
+}
+#menu li a.stocksexchange:hover {
+	background:url(../images/stock_exchange_hover.png) center top no-repeat;
+}
+/*-------------------------------------menu end--------------------------------------------------------------------*/
