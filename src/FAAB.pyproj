@@ -304,8 +304,6 @@
     <Content Include="FAABModel\templates\employee.html" />
     <Content Include="FAABModel\templates\layout.html" />
     <Content Include="libman.json" />
-    <Content Include="LICENSE" />
-    <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="FAABModel\static\content\bootstrap.css" />
     <Content Include="FAABModel\static\content\bootstrap.min.css" />
