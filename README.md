@@ -1,7 +1,7 @@
 # FAAB
 Starter template for python Flask + API + Appendgrid + Bootstrap + JQuery + JQuery-UI
 
-![image-20240517065336757](README\image-20240517065336757.png)
+![image-20240517065336757](.\README\image-20240517065336757.png)
 
 ## How to use:
 
